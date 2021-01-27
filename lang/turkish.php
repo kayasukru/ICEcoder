@@ -1,50 +1,44 @@
 <?php
 // Turkish language translation
-// Türkçe dil çevirisi
 // by: @kayasukru (GitHub)
+
 
 // Lütfen, satır sonu, özel karakter, HTML <etiket> ve eşdeğeri (ör. &amp;) öğelere dokunmayın, biçimlendirmeyi koruyun. Sağ taraftakiler çeviridir.
 
-$text = array(
+$text = [
 
 // / [ROOT LEVEL]
 
     "editor" =>
-	array(
-		"server"			    => "Sunucu Bilgileri",
-		"Server name, SS..."	=> "Sunucu adı, İşletim Sistemi & IP:",
-		"Root"				    => "Kök klasörü:",
-		"ICEcoder root"			=> "ICEcoder kök klasörü:",
-		"PHP version"			=> "PHP sürümü:",
-		"Date & time"			=> "Tarih & zaman:",
-		"your device"			=> "Yazılım Bilgisi",
-		"Browser"			    => "Tarayıcı:",
-		"Your IP"			    => "IP numaranız:",
-		"trial remaining"		=> "denemenin kalan",
-		"days left"			    => "Kalan Gün",
-		"files"				    => "Dosyalar",
-		"Last 10 files..."		=> "Açılan son 10 dosya :",
-		"none"				    => "[yok]",
-		"test suite"			=> "Testler",
-		"Run unit tests"		=> "Birim Testlerini Çalıştır",
-		"dev mode"			    => "Geliştirici modu",
-		"Status"			    => "Durum",
-		"Using"				    => "Kullanma",
-		"You can switch..."		=> "lib/config__settings.php dosyasında geliştirici modunu açıp kapatabilirsiniz"
+    [
+        "server"                                   => "Sunucu Bilgileri",
+        "Server name, OS..."                       => "Sunucu adı, İşletim Sistemi & IP:",
+        "Root"                                     => "Kök klasörü:",
+        "ICEcoder root"                            => "ICEcoder kök klasörü:",
+        "PHP version"                              => "PHP sürümü:",
+        "Date & time"                              => "Tarih & zaman:",
+        "your device"                              => "Yazılım Bilgisi",
+        "Browser"                                  => "Tarayıcı:",
+        "Your IP"                                  => "IP Adresiniz:",
+        "files"                                    => "Dosyalar",
+        "Last 10 files..."                         => "Açılan son 10 dosya:",
+        "none"                                     => "[yok]",
+        "multi-user"                               => "Çoklu kullanıcı",
+        "Username"                                 => "Kullanıcı adı:",
+        "version"                                  => "sürüm",
+        "codemirror version"                       => "codemirror sürümü",
+    ],
 
-	),
-
-	"files" =>
-	array(
-		"Lock"				=> "Menüyü Gizle",
-		"Refresh"			=> "Yenile",
-		"Plugins"			=> "Eklentiler",
-		"ROOT"				=> "[ROOT]"
-
-	),
+    "files" =>
+    [
+        "Lock"                                     => "Menüyü Gizle",
+        "Refresh"                                  => "Yenile",
+        "Plugins"                                  => "Eklentiler",
+        "ROOT"                                     => "[ROOT]",
+    ],
 
 	"index" =>
-	array(
+	[
 		"UPDATE INFO"		=> "GÜNCELLEME BİLGİSİ",
 		"now available"		=> "kullanılabilir",
 		"Your version is"	=> "Sürümünüz ",
@@ -101,38 +95,41 @@ $text = array(
 		"open documents"		=> "açık belge",
 		"all files"			    => "tüm dosyalar",
 		"all filenames"			=> "tüm dosya adları",
-		"Turn on/off..."		=> "Kod Yardımı aç/kapat",
-		"Code Assist"			=> "Kod Yardımı",
 		"Go to Line"			=> "Satıra Git",
 		"View"				    => "Görünüm",
 		"Bug reporting not active"	=> "Hata Raporlayıcı Aktif Değil",
 		"Single pane"			    => "Tek panel",
 		"Diff pane also"		    => "İkinci paneli aç"
-	),
+	],
 
 // /LIB
 
-	"auto-logout-warning" =>
-	array(
+    "auto-logout-warning" =>
+    [
 		"Auto Logout Warning"	=> "Otomatik oturum kapatma uyarısı",
 		"You will be..."		=> "Sonra çıkış yapacaksınız",
 		"seconds due to..."		=> "Güvenlik nedeniyle, hareketsizlik nedeniyle saniye. Devam etmek için fareyi kullanın veya bir tuşa basın. <br> <br> Bunu Düzen > Ayarlar bölümünden ayarlayabilir veya devre dışı bırakabilirsiniz."
-	),
+    ],
 
-	"backup-versions" =>
-	array(
+    "backup-versions" =>
+    [
 		"backup"			=> "yedek",
 		"backups"			=> "yedekler",
 		"available for"		=> "kullanılabilir"
-	),
+    ],
 
-	"bug-files-check" =>
-	array(
+    "bug-files-check" =>
+    [
 		"Found in"			=> "İçinde bulunan:"
-	),
+    ],
 
-	"file-control" =>
-	array(
+    "bug-report" =>
+    [
+        "Bug Report"        => "Hata Raporu",
+    ],
+
+    "file-control" =>
+    [
 		"Sorry, bad filename..."	=> "Üzgünüm, hatalı dosya adı. Daha fazla bilgi için dev araçlar konsolunu kontrol edin.",
 		"Sorry"				        => "Üzgünüm",
 		"does not seem..."		    => "Sunucuda mevcut görünmüyor",
@@ -159,10 +156,10 @@ $text = array(
 		"Enter filename to..."		=> "Kaydetmek için dosya adı girin",
 		"That file exists..."		=> "Bu isimde dosya zaten var, üzerine kaydedilsin mi?",
 		"Saving"			        => "Kaydediliyor"
-	),
+    ],
 
-	"ftp-manager" =>
-	array(
+    "ftp-manager" =>
+    [
 		"Saving FTP sites"		    => "FTP siteleri kaydediliyor",
 		"Cannot update config..."	=> "Yapılandırma dosyası güncellenemiyor. Lütfen yazma izinlerini genel olarak ayarlayın.",
 		"and try again"			    => "ve tekrar deneyin",
@@ -171,8 +168,8 @@ $text = array(
 		"Are you sure..."		    => "Bu siteyi kaldırmak istediğinizden emin misiniz?",
 		"Add new site"			    => "Yeni site ekle",
 		"Edit site"			=> "Site Düzenle",
-		"Site base"			=> "Site base",
-		"Host"				=> "Host",
+		"Site base"			=> "Site tabanı",
+		"Host"				=> "Sunucu",
 		"Username"			=> "Kullanıcı Adı",
 		"Password"			=> "Parola",
 		"PASV and mode"		=> "PASV ve mod",
@@ -189,52 +186,19 @@ $text = array(
 		"Binary transfer"		=> "Binary aktarım",
 		"Add"				=> "Ekle",
 		"Choose"			=> "Seç",
-		"Update"			=> "Güncelle"
-	),
+		"Update"			=> "Güncelle
+		"
+    ],
 
-	"get-branch" =>
-	array(
-		"There are no..."		=> "Yerel ve GitHub repo arasında fark yoktur. Normal moda dönülsün mü?",
-		"Sorry, there was..."	=> "Üzgünüz, bir hata oluştu, hata kodu:",
-		"Your local folder..."	=> "Yerel klasörünüz boş, klonlamak ister misiniz"
-	),
+    "get-branch" => [],
 
-	"github-manager" =>
-	array(
-		"Sorry, cannot create..."	=> "Üzgünüm, klasör oluşturulamıyor",
-		"Cannot update config..."	=> "Yapılandırma dosyası güncellenemiyor. Lütfen yazma izinlerini genel olarak ayarlayın.",
-		"and try again"			    => "ve tekrar deneyin",
-		"saving github paths"		=> "github yolları kaydediliyor...",
-		"github paths"			    => "github yolları",
-		"Choose existing path"		=> "Mevcut yolu seçin",
-		"Local path"			    => "Yerel yol",
-		"Slash prefixed"		    => "Ön eklenmiş eğik çizgi '/'",
-		"Remote GitHub path"		=> "Uzak GitHub yolu",
-		"Absolute URL beginning..."	=> "Mutlak URL, https://github.com başlıyor",
-		"Choose"			        => "Seç",
-		"Set local and..."		    => "Kaldırılacak yerel ve uzak yolu boş bırakın",
-		"Update"			        => "Güncelle",
-		"Add new path"			    => "Yeniyol ekle",
-		"Add"				        => "Ekle",
-		"Usage Info"			    => "Kullanım Bilgisi:",
-		"Enter relative local..."	=> "İlgili yerel yolları (ör. /sunucu/dosyalarim) ve mutlak GitHub yollarını girin ( dallanma için https://github.com/user/repo veya https://github.com/user/repo/tree/branch ), örneklere göre. Bunu yaptığınızda, iki yoldaki kaynak yollarını bir çift olarak oluşturdunuz.",
-		"You can then..."		    => "Daha sonra bir yol çifti seçebilirsiniz. Bu daha sonra ICEcoder'daki yeni kök yolunuz olur.",
-		"The file manager..."		=> "Dosya yöneticisi daha sonra 2 kaynak arasında bir fark kontrolü gerçekleştirmek için tıklatabileceğiniz yeni bir GitHub simgesi görüntüler. Bu farklar daha sonra GitHub'daki uzak yola aktarılabilir veya dosyalarınızı senkronize etmek için yerel yolunuza klonlanabilir.",
-		"If you want..."		    => "Başka bir kök yolu ayarlamak isterseniz, bu Ayarlar ekranında yapılabilirsiniz."
-	),
+    "headers" =>
+    [
+        "Bad CSRF token..."     => "Kötü CSRF bildirimi. Lütfen hata bilgilerini https://github.com/icecoder/ICEcoder adresinde bildirin, böylece düzeltilebilir.",
+    ],
 
-	"github" =>
-	array(
-		"Sorry, you do..."		=> "Üzgünüm, PHP yapılandırmanızda OpenSSL yüklü görünmüyor, dolayısıyla https kullanılamıyor. GitHub veri aktarımı için bu gereklidir, lütfen php.ini ayarlarını değiştirin, sunucunuzu yeniden başlatın ve tekrar deneyin."
-	),
-
-	"headers" =>
-	array(
-		"Bad CSRF token..."		=> "Kötü CSRF belirteci. Lütfen, düzeltilebilmesi için https://github.com/mattpass/ICEcoder adresine hata bilgisini bildirin."
-	),
-
-	"help" =>
-	array(
+    "help" =>
+    [
 		"shortcuts"			    => "Kısayollar",
 		"Within document"		=> "Belge içinde",
 		"On Tabs"			    => "Sekmelerde",
@@ -296,62 +260,62 @@ $text = array(
 		"Fold unfold current..."	=> "Mevcut hattı Katla / Katlama",
 		"Refocus on document"		=> "Belgeye yeniden odaklan",
 		"Cancel tasks"			    => "Görevleri iptal et"
-	),
+        "Zoom out"                                 => "Tüm işlevsiz/sınıf olmayan bildirimleri uzaklaştır",
+        "Jump to"                                  => "Sınıf/işlev bildirimine atla",
+        "Jump to previous tab"                     => "Önceki sekmeye atla",
+    ],
 
-	"ice-coder" =>
-	array(
-		"results"			    => "results",
-		"No text selected..."	=> "No text selected to search on",
+    "icecoder" =>
+    [
+		"results"			    => "sonuçlar",
+		"No text selected..."	=> "Aramak için seçili metin yok",
 		"all files"			    => "tüm dosyalar",
 		"all filenames"			=> "tüm dosya adları",
 		"selected files"		=> "seçili dosyalar",
 		"selected filenames"	=> "seçili dosya adları",
 		"Creating Folder"		=> "Yeni Klasör Oluştur",
-		"Sorry you can..."		=> "Sorry, you can only have 100 files open at a time!",
+		"Sorry you can..."		=> "Üzgünüz, bir seferde sadece 100 dosya açabilirsiniz!",
 		"Opening File"			=> "Dosya Açılıyor",
-		"Enter relative file..."	=> "Enter relative file path (prefixed with /) or remote URL\\nYou can enter \\n'/path/file:123' or \\n'/path/file(123)' or \\n'/path/file.ext line 123' \\nto go directly to particular line",
-		"Getting"			    => "Getting",
+		"Enter relative file..."	=> "Dosya yolunu (öneki '/' olacak şekilde) veya uzak URL'yi girin \\n \\n '/yol/dosya:123' veya \\n '/yol/dosya(123)' veya doğrudan belirli bir satıra gitmek için \\n '/yol/dosya.ext satır 123 şeklinde girebilirsiniz' ",
+		"Getting"			    => "Başlarken",
 		"Saving"			    => "Kaydediliyor:",
 		"Please enter the..."	=> "Lütfen yeni dosya adı girin",
 		"Renaming to"			=> "Adı değiştiriliyor",
 		"Moving to"			    => "Taşınıyor",
 		"Deleting File"			=> "Dosya Siliniyor",
-		"Pasting File"			=> "Pasting File",
-		"Sorry cannot paste..."		=> "Sorry, cannot paste a whole root",
-		"Nothing to paste..."		=> "Nothing to paste, copy a file/folder first!",
+		"Pasting File"			=> "Dosya yapıştırılıyor",
+		"Sorry cannot paste..."		=> "Üzgünüz, bütün bir kök yapıştırılamaz",
+		"Nothing to paste..."		=> "Yapıştırılacak bir şey yok, önce bir dosya/klasör kopyalayın!",
 		"and"				    => "ve",
 		"this document"			=> "Bu belge",
 		"replace"			    => "Değiştir",
 		"replace all"			=> "Tümünü değiştir",
 		"file"				    => "Dosya",
 		"Replacing text in"		=> "İçindeki yazı değiştiriliyor",
-		"Sorry there was..."	=> "Sorry, there was an error with your request.\\n\\nPlease check your dev tools console for more info.",
-		"Cancelled tasks"		=> "Cancelled tasks",
-		"Open previous files"	=> "Önceki dosyalar açılsın mı?",
-		"Please enter your..."	=> "Please enter your GitHub token (either personal access token or client/secret pair token). See tooltip next to Github Auth Token on Help > Settings screen for more info",
-		"This will compare..."	=> "This will compare and show a diff view between your local dir and the repo. OK?",
-		"Please note for..."	=> "Please note: for updating to work properly, you need to have write access on all ICEcoder dirs & files. It will first check if this is the case and list any unwriteable (and therefore unmoveable) files.\\n\\nIf you need to recover this version of ICEcoder for any reason, you'll find it in the /tmp dir.\\n\\nClick OK to proceed with the check and auto-update, or cancel to visit the ICEcoder site so you can grab the zip and update manually.",
-		"You can start..."		=> "You can start bug reporting in Help > Settings",
-		"Error cannot find..."	=> "Error: cannot find/access the error file paths",
-		"No new errors..."		=> "No new errors found",
-		"You have made..."		=> "You have made changes. Are you sure you want to close without saving?",
+		"Sorry there was..."	=> "Üzgünüz, talebinizle ilgili bir hata oluştu.\\n\\nDaha fazla bilgi için lütfen geliştirme araçları konsolunuzu kontrol edin.",
+		"Cancelled tasks"		=> "İptal edilen görevler",
+        "Please note for..."    => "Please note: for updating to work properly, you need to have write access on all ICEcoder dirs & files. It will first check if this is the case and list any unwriteable (and therefore unmoveable) files.\\n\\nIf you need to recover this version of ICEcoder for any reason, you'll find it in the /tmp dir.\\n\\nClick OK to proceed with the check and auto-update, or cancel to visit the ICEcoder site so you can grab the zip and update manually.",
+        "Please note for..."    => "Lütfen dikkat: güncellemenin düzgün çalışması için, tüm ICEcoder dizinlerine ve dosyalarına yazma erişiminizin olması gerekir. Önce durumun bu olup olmadığını kontrol edecek ve yazılamayan (ve dolayısıyla taşınamayan) dosyaları listeleyecektir. \\n \\n Herhangi bir nedenle ICEcoder'ın bu sürümünü kurtarmanız gerekirse, bunu /tmp dizininde bulabilirsiniz. \\n \\n Kontrol ve otomatik güncellemeye devam etmek için Tamam'ı tıklayın veya ICEcoder sitesini ziyaret etmek için iptal edin, böylece zip dosyasını alıp manuel olarak güncelleyebilirsiniz.",
+		"You can start..."		=> "Hata bildirmeye Yardım > Ayarlar'dan başlayabilirsiniz",
+		"Error cannot find..."	=> "Hata: hata dosyası yollarını bulamıyor/erişemiyor",
+		"No new errors..."		=> "Yeni hata bulunamadı",
+		"You have made..."		=> "Değişiklikler yaptınız. Kaydetmeden kapatmak istediğinizden emin misiniz?",
 		"Close all tabs"		=> "Tüm Sekmeler Kapatılsın mı?"
-	),
+    ],
 
-	"login" =>
-	array(
+    "login" =>
+    [
 		"set password"		=> "Parola Ayarla",
 		"login"				=> "Giriş",
-		"To disable registration..."	=> "Üye Kayıt modunu devre dışı bırakmak için, ayarlar menüsünü kullanın veya lib/config___settings.php dosyasını açın ve enableRegistration özelliğini false olarak değiştirin, ardından bu sayfayı yeniden yükleyin.",
-		"Registration mode enabled"	    => "Kayıt modu etkin",
+        "Registration mode enabled"                => "Kayıt modu etkin",
 		"disable further registrations"	=> "daha fazla üyelik kaydını devre dışı bırak",
 		"auto-check for updates"	=> "Güncellemeleri otomatik kontrol et",
 		"To put into..."		    => "Çoklu kullanıcı moduna geçmek için, Ayarlar menüsünü kullanın veya lib/config___settings.php dosyasını açın ve multiUser özelliğini true olarak değiştirin, ardından bu sayfayı yeniden yükleyin.",
 		"multi-user"			    => "Çoklu Kullanıcı"
-	),
+    ],
 
-	"multiple-results" =>
-	array(
+    "multiple-results" =>
+    [
 		"rename all"		=> "Tümünü yeniden adlandır",
 		"replace all"		=> "Hepsini değiştir",
 		"document"			=> "belge",
@@ -366,10 +330,10 @@ $text = array(
 		"selected"			=> "seçilmiş",
 		"found in"			=> "içinde bulunan",
 		"Replaced"			=> "Değiştirildi"
-	),
+    ],
 
-	"plugins-manager" =>
-	array(
+    "plugins-manager" =>
+    [
 		"ICEcoder needs to..."		=> "ICEcoder'ın bu eklentiyi kullanılabilir hale getirmek için yeniden yüklemesi gerekiyor. Şimdi tekrar yüklensin mi?",
 		"saving plugins"		    => "Eklentileri kaydediliyor...",
 		"Cannot update config..."	=> "Yapılandırma dosyası güncellenemiyor. Lütfen yazma izinlerini genel olarak ayarlayın.",
@@ -386,10 +350,10 @@ $text = array(
 		"Install"			=> "Kur",
 		"Uninstall"			=> "Kaldır",
 		"Reload after install..."	=> "Kurulumdan sonra yenileme gerekir"
-	),
+    ],
 
-	"properties" =>
-	array(
+    "properties" =>
+    [
 		"properties"		=> "özellikler",
 		"Size"				=> "Boyut",
 		"Modified"			=> "Değiştirildi",
@@ -406,110 +370,143 @@ $text = array(
 		"Read"				=> "Okuma",
 		"Write"				=> "Yazma",
 		"Execute"			=> "Çalıştırma",
-		"Change to"			=> "Change to",
-		"update"			=> "update"
-	),
+		"Change to"			=> "Değiştirin ",
+		"update"			=> "güncelleme"
+    ],
 
-	"settings-common" =>
-	array(
+    "settings-common" =>
+    [
 		"Your document does..."		=> "Belgeniz UTF-8 kodlamasında görünmüyor, dolayısıyla dönüştürülüyor"
-	),
+    ],
 
-	"settings-save-current-files" =>
-	array(
+    "settings-save-current-files" =>
+    [
 		"Cannot update config..."	=> "Yapılandırma dosyası güncellenemiyor. Lütfen yazma izinlerini genel olarak ayarlayın.",
 		"and try again"			    => "ve tekrar deneyin"
-	),
+    ],
 
-	"settings-screen" =>
-	array(
+    "settings-screen" =>
+    [
 		"settings"			=> "Ayarlar",
 		"version"			=> "Sürüm",
 		"website"			=> "Web sitesi",
 		"git"				=> "git adresi",
-		"codemirror dir"	=> "codemirror klasörü",
 		"codemirror version"	=> "codemirror sürümü",
 		"file manager root"		=> "Dosya yöneticisi kök klasörü",
 		"backups"			    => "yedekler",
-		"keep version control..."	=> "keep version control backups for",
+		"keep version control..."	=> "sürüm kontrol yedeklerini tutma",
 		"day"				        => "gün",
 		"days"				        => "günler",
-		"of backups stored..."		=> "of backups stored currently",
-		"deleting actually moves..."	=> "deleting actually moves to ICEcoder's tmp dir",
-		"local/server items..."		    => "local/server items only",
+		"of backups stored..."		=> "şu anda depolanan yedeklerin yüzdesi",
+		"deleting actually moves..."	=> "silmede ICEcoder'ın tmp dizinine taşınır",
+		"local/server items..."		    => "yalnızca yerel/sunucu öğeleri",
 		"Get in contact..."		=> "İletişim için aşağıdaki bağlantıları tıklayın ...",
 		"You may use..."		=> "ICEcoder'ı kendi amaçlarınız için kullnabilirsiniz. Ticari amaçlarla kullanılamaz. Herhangi bir soğuk kullanım ya da özelleştirme hakkında bize bilgi verin. :) <br> <br> Hiçbir şey için, hiçbir garanti veya sorumluluk kabul edilmez, tüm kullanım sorumluluğu size aittir.",
-		"functionality"			=> "functionality",
-		"check for updates..."	=> "check for updates on load",
-		"auto open last..."		=> "auto open last files on login",
-		"when finding in..."	=> "when finding in files, exclude",
-		"assisting"			    => "assisting",
+		"functionality"			=> "işlevsellik",
+		"check for updates..."	=> "yükleme sırasında güncellemeleri kontrol et",
+		"auto open last..."		=> "girişte son dosyaları otomatik aç",
+		"when finding in..."	=> "dosyalarda bulurken, hariç tut",
+		"assisting"			    => "yardımcı",
 		"code assist"			=> "Kod yardımcısı",
 		"visible tabs"			=> "Görülebilir sekmeler",
-		"locked nav"			=> "locked nav",
-		"tag wrapper command"	=> "tag wrapper command",
-		"auto-complete on"		=> "auto-complete on",
-		"security"			    => "security",
+		"locked nav"			=> "kilitli nav",
+		"tag wrapper command"	=> "etiket sarmalayıcı komutu",
+		"auto-complete on"		=> "otomatik tamamlama açık",
+		"security"			    => "güvenlik",
 		"new password"			=> "Yeni parola",
 		"8 chars min"			=> "Parola en az 8 karakter olmalı",
 		"confirm password"		=> "Yeni parola tekrar",
-		"banned files/folders"	=> "banned files/folders",
-		"banned paths"			=> "banned paths",
+		"banned files/folders"	=> "yasaklanmış dosyalar/klasörler",
+		"banned paths"			=> "yasaklı yollar",
 		"ip addresses"			=> "ip adresleri",
-		"auto-logout after"		=> "auto-logout after",
-		"mins of inactivity..."		=> "mins of inactivity if no unsaved files",
+		"auto-logout after"		=> "ardından otomatik olarak çıkış yap",
+		"mins of inactivity..."		=> "hareketsizlik dakikalarda kaydedilmemiş dosya yoksa",
 		"Slash prefixed comma..."	=> "Girdiler '/' işareti ile başlamalıdır, Birden fazla girdi için aralarına virgül koyun",
 		"Comma delimited"		    => "Birden fazla girdi için aralarına virgül koyun",
-		"style"				    => "style",
+		"style"				    => "stil",
 		"theme"				    => "tema",
-		"line wrapping"			=> "line wrapping",
+		"line wrapping"			=> "satır kaydırma",
+		"line numbers"			=> "Satır numaraları",
+        "scrollbars"                               => "kaydırma çubukları",
+		"settings"			=> "Ayarlar",
+		"version"			=> "Sürüm",
+		"website"			=> "Web sitesi",
+		"git"				=> "git adresi",
+		"codemirror version"	=> "codemirror sürümü",
+		"file manager root"		=> "Dosya yöneticisi kök klasörü",
+		"backups"			    => "yedekler",
+		"keep version control..."	=> "sürüm kontrol yedeklerini tut",
+		"day"				        => "gün",
+		"days"				        => "günler",
+		"of backups stored..."		=> "şu anda depolanan yedeklerin yüzdesi",
+		"deleting actually moves..."	=> "silmede ICEcoder'ın tmp dizinine taşınır",
+		"local/server items..."		    => "yalnızca yerel/sunucu öğeleri",
+		"Get in contact..."		=> "İletişim için aşağıdaki bağlantıları tıklayın ...",
+		"You may use..."		=> "ICEcoder'ı kendi amaçlarınız için kullnabilirsiniz. Ticari amaçlarla kullanılamaz. Herhangi bir soğuk kullanım ya da özelleştirme hakkında bize bilgi verin. :) <br> <br> Hiçbir şey için, hiçbir garanti veya sorumluluk kabul edilmez, tüm kullanım sorumluluğu size aittir.",
+		"functionality"			=> "işlevsellik",
+		"check for updates..."	=> "yükleme sırasında güncellemeleri kontrol et",
+		"auto open last..."		=> "girişte son dosyaları otomatik aç",
+		"when finding in..."	=> "dosyalarda bulurken, hariç tut",
+		"assisting"			    => "yardımcı",
+		"code assist"			=> "Kod yardımcısı",
+		"visible tabs"			=> "Görülebilir sekmeler",
+		"locked nav"			=> "kilitli nav",
+		"tag wrapper command"	=> "etiket sarmalayıcı komutu",
+		"auto-complete on"		=> "otomatik tamamlama açık",
+		"security"			    => "güvenlik",
+		"new password"			=> "Yeni parola",
+		"8 chars min"			=> "Parola en az 8 karakter olmalı",
+		"confirm password"		=> "Yeni parola tekrar",
+		"banned files/folders"	=> "yasaklanmış dosyalar/klasörler",
+		"banned paths"			=> "yasaklı yol",
+		"ip addresses"			=> "ip adresleri",
+		"auto-logout after"		=> "ardından otomatik olarak çıkış yap",
+		"mins of inactivity..."		=> "hareketsizlik dakikalarda kaydedilmemiş dosya yoksa",
+		"Slash prefixed comma..."	=> "Girdiler '/' işareti ile başlamalıdır, Birden fazla girdi için aralarına virgül koyun",
+		"Comma delimited"		    => "Birden fazla girdi için aralarına virgül koyun",
+		"style"				    => "stil",
+		"theme"				    => "tema",
+		"line wrapping"			=> "satır kaydırma",
 		"line numbers"			=> "Satır numaraları",
 		"indent type"			=> "Girinti tipi",
 		"indent size"			=> "Girinti boyutu",
-		"match brackets"		=> "match brackets",
-		"show trailing space"	=> "show trailing space",
+		"match brackets"		=> "eşleşme parantezleri",
+		"show trailing space"	=> "sondaki boşluğu göster",
 		"font size"			    => "Yazıtipi boyutu",
 		"auto indent"			=> "Otomatik girinti",
 		"auto close tags"		=> "etiketleri otomatik kapat",
-		"auto close brackets"	=> "auto close brackets",
-		"layout"			    => "layout",
-		"plugin panel aligned"	=> "plugin panel aligned",
+		"auto close brackets"	=> "otomatik kapanma parantezleri",
+		"layout"			    => "yerleşim",
+		"plugin panel aligned"	=> "eklenti paneli hizalı",
 		"file manager"			=> "dosya yöneticisi",
-		"root"				    => "root",
-		"Set 0 to..."			=> "Set 0 to disable",
+		"root"				    => "kök",
+		"Set 0 to..."			=> "Devre dışı bırakmak için 0 ayarlayın",
 		"Slash prefixed"		=> "Girdiler '/' işareti ile başlamalıdır",
 		"bug reporting"			=> "Hata raporlama",
-		"check in files"		=> "check in files",
-		"every"				    => "every",
-		"secs getting last"		=> "secs, getting last",
+		"check in files"		=> "dosyalarda kontrol et",
+		"every"				    => "her",
+		"secs getting last"		=> "saniye, sona almak",
 		"lines"				    => "Satırlar",
 		"multi-user"			=> "Çok kullanıcı",
 		"Make sure you..."		=> "Kendini kilitlemediğinden emin olun.",
 		"Registration"			=> "Üyelik",
-		"auth token"			=> "auth token",
-		"Required to get..."	=> "Farklı bir şey almak, GitHub ayırılan repo'unuza bağlı olmak için gereklidir." .PHP_EOL.PHP_EOL.
-                "- kişisel erişim belirteci (https://help.github.com/articles/creating-an-access-token-for-command-line-use) veya" .PHP_EOL.
-                "- tam istemci / gizli çift belirteci (http://developer.github.com/v3/oauth)." .PHP_EOL.PHP_EOL.
-                "Buradaki belirtecinizi burada ayarlarsanız tavsiye ederim ve ICEcoder tarafından talep edildiğinde daha fazla güvenilir, sadece buda oturumda kalır." .PHP_EOL.PHP_EOL. 
-                "Ancak, güvenilir ve güvenli bir şekilde çalışıyorsanız, bunu burada daha güzel yapabilirsiniz.",
-		"Sorry cannot commit..."	=> "Üzgünüz, demo modunda ayar yapılamıyor",
-		"update"			        => "Güncelle"
-	),
+        "update"                                   => "güncelle",
+    ],
 
-	"settings-update" =>
-	array(
+    "settings-update" =>
+    [
 		"Cannot update config..."	=> "Ayarlar dosyası güncellenemedi. Lütfen, herkese ait yazma hakkı ayarlayın",
 		"and try again"			    => "ve tekrar deneyin",
 		"and press refresh"		    => "ve Yenileyin"
-	),
+    ],
 
-	"updater" =>
-	array(
+    "updater" =>
+    [
 		"Update appears to..."		=> "Güncelleme başarılı görünüyor"
-	),
-    
-	"find-in-files" =>
-	array(
+    ],
+
+    "find-in-files" =>
+    [
 		"Enter path to search in"     => "Aramak için yol girin",
 		"Enter semicolon-separated masks of files to look at (e.g. *.php;*.html;*.js)" => "Enter semicolon-separated masks of files to look at (e.g. *.php;*.html;*.js)",
 		"Type of text"                => "Metin türü",
@@ -519,6 +516,11 @@ $text = array(
 		"Yes"        => "Evet",
 		"No"         => "Hayır",
 		"Search"     => "Arama",
-	)
-);
-?>
+    ],
+
+    "demo-mode" =>
+    [
+        "Demo mode"                                => "Demo modu",
+    ],
+
+];
